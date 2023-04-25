@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+{# On accède au pseudo de l'user qui est connecté avec app.user #}
+<h1>Bienvenue {{ app.user.pseudo }} </h1>
+
+{% endblock %}
